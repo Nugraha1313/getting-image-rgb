@@ -55,10 +55,7 @@ public class Main {
 				//Creating a Color object from pixel value
 				Color color = new Color(rgb);
 				//Retrieving the R G B values
-				int red = color.getRed();
-				int green = color.getGreen();
-				int blue = color.getBlue();
-				System.out.println("x : " + x + " | y : " + y + " | Red : " + red + " | Green : " + green + " | Blue : " + blue);
+				System.out.println("x : " + x + " | y : " + y + " | Red : " + color.getRed() + " | Green : " + color.getGreen() + " | Blue : " + color.getBlue());
 			}
 		}
 	}
